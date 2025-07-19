@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background: black;
+    }
+
+    p, a {
+        color: white;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    html {
+        background: white;
+    }
+
+    p, a {
+        color: black;
+    }
+}
