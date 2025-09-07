@@ -8,6 +8,6 @@
 
         <img src="/logo_light2.png" alt="The word 'TangledWires' next to a computer terminal" width="350">
     </picture>
-    <p class="prose text-l">This domain is used to host some TangledWires services.</p>
-    <p class="prose text-l">Looking for the main TangledWires website? Go to <a href="https://tangledwires.xyz/">https://tangledwires.xyz/</a> instead.</p>
+    <p class="prose text-l">Sorry, there's nothing here yet.</p>
+    <p class="prose text-l">Come back later.</p>
 </div>
