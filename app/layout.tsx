@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type {Metadata, Viewport} from "next";
 import React from "react";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import {ThemedImage} from "@/components/ThemedImage";
@@ -8,6 +8,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: { absolute: "TangledWires", template: "%s | TangledWires" },
+  creator: "TangledWires",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#00be0b",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

@@ -1,6 +1,11 @@
+import type { Metadata } from 'next';
 import {ProjectHeader} from "@/components/ProjectHeader";
 import Link from "next/link";
 import mobileScreenshot from "./mobile_screenshot.png";
+
+export const metadata: Metadata = {
+  title: "Stationary",
+};
 
 export default function StationaryPage() {
   return (
