@@ -1,17 +1,18 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBluesky, faFacebook, faGithub, faInstagram, faMastodon, faThreads} from "@fortawesome/free-brands-svg-icons";
 import React from "react";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col justify-center items-center p-10">
+      <div className="flex flex-col justify-center items-center">
         <p className="text-3xl font-medium">Welcome</p>
         <p>TangledWires is a software team creating... anything we find interesting really.</p>
       </div>
       <div className="flex flex-col justify-center items-center p-10">
         <p className="text-3xl font-medium">What are we making at the moment?</p>
-        <p>Currently, we&apos;re working on Stationary, a mobile app for tracking which UK train stations you&apos;ve been to.</p>
+        <p>Currently, we&apos;re working on <Link href="/projects/stationary">Stationary</Link>, a mobile app for tracking which UK train stations you&apos;ve been to.</p>
       </div>
       <div className="flex flex-row justify-center items-center text-3xl">
         <a href="https://www.facebook.com/tangledwiresofficial/" aria-label="Facebook"><FontAwesomeIcon icon={faFacebook} /></a>

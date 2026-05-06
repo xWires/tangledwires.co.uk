@@ -1,12 +1,17 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 @media (prefers-color-scheme: dark) {
     html {
         background: black;
     }
 
-    p, a, i, span, h1, h2, h3, h4, h5, h6 {
+    p, a, i, span, h1, h2, h3, h4, h5, h6, strong {
         color: white;
+    }
+
+    hr {
+        border-color: white;
     }
 }
 
@@ -15,7 +20,22 @@
         background: white;
     }
 
-    p, a, i, span, h1, h2, h3, h4, h5, h6 {
+    p, a, i, span, h1, h2, h3, h4, h5, h6, strong {
         color: black;
     }
+
+    hr {
+        border-color: black;
+
+    }
+}
+
+a {
+    text-decoration: underline;
+}
+
+hr {
+    border-top-width: 1px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
