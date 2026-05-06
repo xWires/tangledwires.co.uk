@@ -12,7 +12,7 @@ export default function StationaryPage() {
     <>
       <ProjectHeader
         title="Stationary"
-        description="Data is fun, and so are trains."
+        description="Data is fun, so are trains."
         image={mobileScreenshot}
         imageAlt="A phone displaying statistics on train station visits"
       />
