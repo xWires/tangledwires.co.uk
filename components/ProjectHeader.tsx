@@ -1,9 +1,10 @@
 import React from "react";
+import Image, {ImageProps} from "next/image";
 
 export type ProjectHeaderProps = {
   readonly title: string;
   readonly description: string;
-  readonly image: string;
+  readonly image: ImageProps["src"];
   readonly imageAlt: string;
 };
 
@@ -20,7 +21,7 @@ export function ProjectHeader({ title, description, image, imageAlt }: ProjectHe
           </p>
         </div>
         <div>
-          <img className="float-right" src={image} alt={imageAlt} style={{ maxHeight: 450 }} />
+          <Image className="float-right" src={image} alt={imageAlt} height="450" />
         </div>
       </div>
     </div>

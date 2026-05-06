@@ -1,5 +1,6 @@
 import {ProjectHeader} from "@/components/ProjectHeader";
 import Link from "next/link";
+import mobileScreenshot from "./mobile_screenshot.png";
 
 export default function StationaryPage() {
   return (
@@ -7,7 +8,7 @@ export default function StationaryPage() {
       <ProjectHeader
         title="Stationary"
         description="Data is fun, and so are trains."
-        image="/images/projects/stationary/mobile_screenshot.png"
+        image={mobileScreenshot}
         imageAlt="A phone displaying statistics on train station visits"
       />
       <div className="prose">
