@@ -28,8 +28,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <script defer data-domain="tangledwires.co.uk" src="https://analytics.tangledwires.co.uk/js/script.js"></script>
       </head>
       <body>
-        <div className="flex flex-col justify-center items-center p-10 " style={{ paddingTop: "50px" }}>
-          <div className="max-w-7xl">
+        <div className="flex flex-col justify-center items-center p-10" style={{ paddingTop: "50px" }}>
+          <div className="max-w-7xl w-full mx-auto">
             <div>
               <Link href="/">
                 <ThemedImage
