@@ -29,7 +29,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       </head>
       <body>
         <div className="flex flex-col justify-center items-center p-10" style={{ paddingTop: "50px" }}>
-          <div className="max-w-7xl w-full mx-auto">
+          <div className="max-w-3xl w-full mx-auto">
             <div>
               <Link href="/">
                 <ThemedImage
@@ -48,7 +48,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             <div className="text-left">
               {children}
             </div>
-            <div className="p-10 text-center">
+            <hr />
+            <div className="text-center">
               <p>&copy; 2026 TangledWires Ltd</p>
               <Link href="/legal/privacy">Privacy Policy</Link>
             </div>
