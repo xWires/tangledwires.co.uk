@@ -9,6 +9,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: { absolute: "TangledWires", template: "%s | TangledWires" },
   creator: "TangledWires",
+  openGraph: {
+    type: "website",
+    title: { absolute: "TangledWires", template: "%s | TangledWires" },
+    siteName: "TangledWires",
+  },
 };
 
 export const viewport: Viewport = {
