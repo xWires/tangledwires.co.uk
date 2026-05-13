@@ -13,6 +13,15 @@
     hr {
         border-color: white;
     }
+
+    table {
+        border-color: white;
+        color: white;
+    }
+
+    th, td {
+        border-color: white;
+    }
 }
 
 @media (prefers-color-scheme: light) {
@@ -26,7 +35,15 @@
 
     hr {
         border-color: black;
+    }
 
+    table {
+        border-color: black;
+        color: black;
+    }
+
+    th, td {
+        border-color: black;
     }
 }
 
@@ -38,4 +55,18 @@ hr {
     border-top-width: 1px;
     margin-top: 1em;
     margin-bottom: 1em;
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid;
+}
+
+th, td {
+    border: 1px solid;
+    padding: 8px 10px;
 }
