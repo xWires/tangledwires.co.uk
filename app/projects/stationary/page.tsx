@@ -5,6 +5,9 @@ import mobileScreenshot from "./mobile_screenshot.png";
 
 export const metadata: Metadata = {
   title: "Stationary",
+  openGraph: {
+    title: "Stationary",
+  },
 };
 
 export default function StationaryPage() {

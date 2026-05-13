@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     type: "website",
     title: { absolute: "TangledWires", template: "%s | TangledWires" },
     siteName: "TangledWires",
+    images: [{ url: "/images/logo_dark.png" }]
   },
 };
 
