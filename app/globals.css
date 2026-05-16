@@ -6,7 +6,7 @@
         background: black;
     }
 
-    p, a, i, span, h1, h2, h3, h4, h5, h6, strong {
+    p, a, i, span, h1, h2, h3, h4, h5, h6, strong, div {
         color: white;
     }
 
@@ -29,7 +29,7 @@
         background: white;
     }
 
-    p, a, i, span, h1, h2, h3, h4, h5, h6, strong {
+    p, a, i, span, h1, h2, h3, h4, h5, h6, strong, div {
         color: black;
     }
 
