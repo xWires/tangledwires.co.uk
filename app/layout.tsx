@@ -50,10 +50,15 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             </div>
             <hr />
             <div className="text-center">
-              <p>&copy; 2026 TangledWires Ltd</p>
               <Link href="/legal/privacy">Privacy Policy</Link>
               {" "}&middot;{" "}
               <Link href="https://status.tangledwires.co.uk/">Status</Link>
+              <br />
+              <br />
+              <p>&copy; 2026 TangledWires Ltd</p>
+              <br />
+              <p>Registered in England and Wales &middot; Registered Number: 16997164</p>
+              <p>Registered Office: 20 Wenlock Road, London, England, N1 7GU</p>
             </div>
           </div>
         </div>
