@@ -7,7 +7,7 @@ import {useEffect, useState} from "react";
 import axios from "axios";
 
 export function StationaryPageClient() {
-  const [stats, setStats] = useState<{ users: number, journeys: number }>();
+  const [stats, setStats] = useState<{ users: number, journeys: number, station_visits: number, stations_visited: number }>();
 
   useEffect(() => {
     axios.get("https://stationary-sync.tangledwires.co.uk/api/v1/stats").then((r) => setStats(r.data));
@@ -34,7 +34,7 @@ export function StationaryPageClient() {
         <p className="text-2xl"><strong>Stationary Sync</strong></p>
         <p>Optionally, you can backup and sync your journeys across devices using a TangledWires account with Stationary Sync. (Currently only available to beta testers.)</p>
         {stats && (
-          <p>There are currently {stats.users} users storing {stats.journeys} journeys on Stationary Sync!</p>
+          <p>There are currently <strong>{stats.users}</strong> users storing <strong>{stats.journeys}</strong> journeys totalling <strong>{stats.station_visits}</strong> station visits across <strong>{stats.stations_visited}</strong> stations on Stationary Sync!</p>
         )}
         <br />
         <p>Stationary is open source software. You can find the code at <Link href="https://github.com/TangledWiresOfficial/Stationary">https://github.com/TangledWiresOfficial/Stationary</Link></p>
