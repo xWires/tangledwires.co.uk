@@ -37,7 +37,7 @@ export function StationaryPageClient() {
           <p>There are currently <strong>{stats.users}</strong> users storing <strong>{stats.journeys}</strong> journeys totalling <strong>{stats.station_visits}</strong> station visits across <strong>{stats.stations_visited}</strong> stations on Stationary Sync!</p>
         )}
         <br />
-        <p>Stationary is open source software. You can find the code at <Link href="https://github.com/TangledWiresOfficial/Stationary">https://github.com/TangledWiresOfficial/Stationary</Link></p>
+        <p>Stationary and Stationary Sync are open source. You can find the code at <Link href="https://github.com/TangledWiresOfficial/Stationary">https://github.com/TangledWiresOfficial/Stationary</Link> and <Link href="https://github.com/TangledWiresOfficial/stationary-sync">https://github.com/TangledWiresOfficial/stationary-sync</Link></p>
       </div>
     </>
   );
